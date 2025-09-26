@@ -1,4 +1,4 @@
-console.log('rain.js loaded');
+console.log('mưacu.js loaded');
 const layer = document.getElementById('rain-layer');
 // Cấu hình theo kích thước màn hình
 function getConfig() {
