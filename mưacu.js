@@ -1,5 +1,5 @@
+console.log('rain.js loaded');
 const layer = document.getElementById('rain-layer');
-
 // Cấu hình theo kích thước màn hình
 function getConfig() {
   const isMobile = window.matchMedia('(max-width: 599px)').matches;
