@@ -92,14 +92,6 @@ body {
     animation: glow 1.5s ease-in-out infinite alternate;
     z-index: 4; 
 }
-/* text */
-.cute-text {
-    position: fixed;
-    bottom: 0;
-    right: 0%;
-    filter: drop-shadow(0 0 10px #000000);
-    z-index: 5;
-} 
 /* rain layer */
 #rain-layer {
     position: fixed; /* phủ màn hình, không bị flex ảnh hưởng */
@@ -158,19 +150,6 @@ body {
         filter: drop-shadow(0 0 15px #fbf0bf); 
     }
 }
- @keyframes gradientBG {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
-    /* Chữ */
-    .cute-text {
-      font-size: 6vw;
-      color: #000000;
-      margin: 20px 0;
-      bottom: 0;
-      animation: bounceIn 2s ease forwards;
-    }
 /* media queries cho responsive desgin*/
 /* Màn hình nhỏ ( mobile, <600px)*/
 @media (max-width:599px) {
