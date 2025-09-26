@@ -55,7 +55,7 @@ body {
     width:  35%; /* tăng kích thước */
     aspect-ratio: 1/1; 
     background-color: #ffdbee; /* Light pink color*/
-    transform: rotate(135deg); /* xoay ngược,đuôi nhọn lên trên*/
+    transform: rotate(-135deg); /* xoay ngược,đuôi nhọn lên trên*/
     border-bottom-left-radius: 30px; /* bo tròn đuôi nhọn */
     border-bottom-right-radius: 30px; /* bo tròn đuôi nhọn */
     filter: drop-shadow( 0 0 15px #ffdbee);
