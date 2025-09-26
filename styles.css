@@ -177,14 +177,16 @@ body {
         width: 30vw; /* hình ảnh nhỏ hơn */
         top: 40vh; 
     }
-    .cute-text {
-        font-size: 20px;
-        bottom: 0px;
-        right: 5px
-    }
-    #rain-layer {
-        opacity: 0.9; /* nhẹ hơn 1 chút */
-    }
+   
+    #rain-layer{ opacity: .9; }
+
+nhẹ hơn */
+
+.raindrop{ width: 12px; height: 30px; }
+
+.raindrop::after,.raindrop::before{ widt
+
+h: 12px; height: 12px; }
 }
     /* Màn hình lớn (tablet, desktop, >600px)*/
     @media (min-width:600px) {
@@ -210,12 +212,7 @@ body {
             width: 60px; /* hình ảnh nhỏ hơn */
             top:  180px; /* căn giữa theo chiều dọc chữ nhật */
         }
-        .cute-text {
-            font-size: 90px;
-            bottom: 0px;
-            right: 20px;
-        }
-        #rain-layer {
-            opacity: 1;
-        }
+        #rain-layer{ opacity: 1; } .raindrop{ width: 20px; height: 50px; } .raindrop::after,.raindrop::before{ widt
+
+h: 20px; height: 20px; }
     }
